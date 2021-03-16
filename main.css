@@ -3,5 +3,28 @@
   }
 
   body {
-    height: 100vh;
+    /* height: 100vh; */
+    font-family: Helvetica;
+    
+    /* display: grid;
+    grid-template-columns: span 3;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px; */
+
+  }
+
+  table, tr, td {
+      border: 1px solid black;
+  }
+
+  table {
+      height: 500px;
+      width: 500px;
+      border-collapse: collapse;
+  }
+
+  button {
+      height: 40px;
+      width: 100px;
+      margin-top: 30px;
   }
