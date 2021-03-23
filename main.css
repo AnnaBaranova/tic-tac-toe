@@ -3,14 +3,9 @@
   }
 
   body {
-    /* height: 100vh; */
-    font-family: Helvetica;
-    
-    /* display: grid;
-    grid-template-columns: span 3;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 5px; */
 
+    font-family: Helvetica;
+ 
   }
 
   table, tr, td {
@@ -21,10 +16,14 @@
       height: 500px;
       width: 500px;
       border-collapse: collapse;
+      margin: 100px;
   }
 
   button {
       height: 40px;
       width: 100px;
-      margin-top: 30px;
+      margin-left: 100px;
+  }
+  h1,h2 {
+      margin-left: 100px;
   }
